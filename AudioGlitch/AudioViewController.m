@@ -15,8 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
   NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:@"Dragon Ball-1" withExtension:@"mp3"];
   AVAsset *asset = [AVAsset assetWithURL:fileUrl];
   
-  CMTime rangeStart = CMTimeMakeWithSeconds(13, 1);
-  CMTime rangeDuration = CMTimeMakeWithSeconds(15, 1);
+  CMTime rangeStart = CMTimeMake(1800, 600);
+  CMTime rangeDuration = CMTimeMake(6000, 600);
   CMTimeRange range = CMTimeRangeMake(rangeStart, rangeDuration);
   
   AVMutableComposition *composition = [AVMutableComposition composition];
