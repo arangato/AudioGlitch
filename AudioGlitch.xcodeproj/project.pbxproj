@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9490EE9D22A6631F0059DD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490EE9C22A6631F0059DD2E /* AppDelegate.m */; };
+		9490EEA022A6631F0059DD2E /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490EE9F22A6631F0059DD2E /* AudioViewController.m */; };
+		9490EEA522A663210059DD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9490EEA422A663210059DD2E /* Assets.xcassets */; };
+		9490EEA822A663210059DD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9490EEA622A663210059DD2E /* LaunchScreen.storyboard */; };
+		9490EEAB22A663210059DD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490EEAA22A663210059DD2E /* main.m */; };
+		9490EEB322A678550059DD2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9490EEB222A678550059DD2E /* AVFoundation.framework */; };
+		9490EEB722A67E110059DD2E /* Dragon Ball-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9490EEB622A67E110059DD2E /* Dragon Ball-1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9490EE9822A6631F0059DD2E /* AudioGlitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioGlitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9490EE9B22A6631F0059DD2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9490EE9C22A6631F0059DD2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9490EE9E22A6631F0059DD2E /* AudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
+		9490EE9F22A6631F0059DD2E /* AudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
+		9490EEA422A663210059DD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9490EEA722A663210059DD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9490EEA922A663210059DD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9490EEAA22A663210059DD2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9490EEB222A678550059DD2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9490EEB622A67E110059DD2E /* Dragon Ball-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dragon Ball-1.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9490EE9522A6631F0059DD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9490EEB322A678550059DD2E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9490EE8F22A6631F0059DD2E = {
+			isa = PBXGroup;
+			children = (
+				9490EE9A22A6631F0059DD2E /* AudioGlitch */,
+				9490EE9922A6631F0059DD2E /* Products */,
+				9490EEB122A678550059DD2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9490EE9922A6631F0059DD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9490EE9822A6631F0059DD2E /* AudioGlitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9490EE9A22A6631F0059DD2E /* AudioGlitch */ = {
+			isa = PBXGroup;
+			children = (
+				9490EE9B22A6631F0059DD2E /* AppDelegate.h */,
+				9490EE9C22A6631F0059DD2E /* AppDelegate.m */,
+				9490EEA422A663210059DD2E /* Assets.xcassets */,
+				9490EE9E22A6631F0059DD2E /* AudioViewController.h */,
+				9490EE9F22A6631F0059DD2E /* AudioViewController.m */,
+				9490EEA922A663210059DD2E /* Info.plist */,
+				9490EEA622A663210059DD2E /* LaunchScreen.storyboard */,
+				9490EEAA22A663210059DD2E /* main.m */,
+				9490EEB522A67DEF0059DD2E /* Supporting Files */,
+			);
+			path = AudioGlitch;
+			sourceTree = "<group>";
+		};
+		9490EEB122A678550059DD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9490EEB222A678550059DD2E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9490EEB522A67DEF0059DD2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9490EEB622A67E110059DD2E /* Dragon Ball-1.mp3 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9490EE9722A6631F0059DD2E /* AudioGlitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9490EEAE22A663210059DD2E /* Build configuration list for PBXNativeTarget "AudioGlitch" */;
+			buildPhases = (
+				9490EE9422A6631F0059DD2E /* Sources */,
+				9490EE9522A6631F0059DD2E /* Frameworks */,
+				9490EE9622A6631F0059DD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioGlitch;
+			productName = AudioGlitch;
+			productReference = 9490EE9822A6631F0059DD2E /* AudioGlitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9490EE9022A6631F0059DD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					9490EE9722A6631F0059DD2E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 9490EE9322A6631F0059DD2E /* Build configuration list for PBXProject "AudioGlitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9490EE8F22A6631F0059DD2E;
+			productRefGroup = 9490EE9922A6631F0059DD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9490EE9722A6631F0059DD2E /* AudioGlitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9490EE9622A6631F0059DD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9490EEA822A663210059DD2E /* LaunchScreen.storyboard in Resources */,
+				9490EEA522A663210059DD2E /* Assets.xcassets in Resources */,
+				9490EEB722A67E110059DD2E /* Dragon Ball-1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9490EE9422A6631F0059DD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9490EEA022A6631F0059DD2E /* AudioViewController.m in Sources */,
+				9490EEAB22A663210059DD2E /* main.m in Sources */,
+				9490EE9D22A6631F0059DD2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9490EEA622A663210059DD2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9490EEA722A663210059DD2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9490EEAC22A663210059DD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9490EEAD22A663210059DD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9490EEAF22A663210059DD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				INFOPLIST_FILE = AudioGlitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightricks.AudioGlitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9490EEB022A663210059DD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				INFOPLIST_FILE = AudioGlitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightricks.AudioGlitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9490EE9322A6631F0059DD2E /* Build configuration list for PBXProject "AudioGlitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9490EEAC22A663210059DD2E /* Debug */,
+				9490EEAD22A663210059DD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9490EEAE22A663210059DD2E /* Build configuration list for PBXNativeTarget "AudioGlitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9490EEAF22A663210059DD2E /* Debug */,
+				9490EEB022A663210059DD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9490EE9022A6631F0059DD2E /* Project object */;
+}
